@@ -4,15 +4,15 @@ function greet() {
         alert("Hello, " + name + "");
 
     //age
-    const age = prompt("How old are you?");
-       console.log(parseInt(age));
+    const userAge = prompt("How old are you?");
+       console.log(parseInt(userAge));
     
 
-    //FIX how to write formulas for 'year - age' and 'year - age + 1'
+    //FIX can't find errors for the year alerts in dev tools but failing tests
     if (window.confirm("Have you had a birthday yet this year?"))
     {
-        alert(new Date().getFullYear() - parseInt(age));
+        alert((new Date().getFullYear()) - userAge);
     } else {
-        alert(new Date().getFullYear() - parseInt(age) - 1);
+        alert((new Date().getFullYear()) - userAge - 1);
     }
 }
