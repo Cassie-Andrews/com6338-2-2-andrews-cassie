@@ -1,2 +1,4 @@
 // Your code here
-function greet() {}
+function greet() {
+    prompt("What is your name?")
+}
