@@ -11,8 +11,8 @@ function greet() {
     //FIX how to write formulas for 'year - age' and 'year - age + 1'
     if (window.confirm("Have you had a birthday yet this year?"))
     {
-        alert(new Date().getFullYear());
+        alert(new Date().getFullYear() - parseInt(age));
     } else {
-        alert(new Date().getFullYear());
+        alert(new Date().getFullYear() - parseInt(age) - 1 );
     }
 }
