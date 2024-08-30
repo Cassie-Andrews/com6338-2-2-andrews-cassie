@@ -1,17 +1,25 @@
 // Your code here
 function greet() {
-    let name = prompt("What is your name?");
-    alert("Hello, " + name + "");
+    let name = prompt("What is your name?", "Name");
+        alert("Hello, " + name + "");
 
-    let age = parseInt(prompt("How old are you?"));
+    //age
+    const age = prompt("How old are you?");
+       console.log(parseInt(age));
     
 
     //need to work on this part, getting confirm alert for both boolean values
-    confirm("Have you had a birthday yet this year?")
-    if(confirm = true) {
-        alert("Happy birthday");
-    } 
-    else {
-        alert("When is your birthday?");
+    if (window.confirm("Have you had a birthday yet this year?"))
+    {
+        alert("yes");
+    } else {
+        alert("no");
     }
+   // ((confirm(new Date().getFullYear())) - " + age + " ) {
+        //yes!
+       // console.log("log yes");
+   // } else {
+        //no!
+      //  console.log("log no") ;
+   // }
 }
