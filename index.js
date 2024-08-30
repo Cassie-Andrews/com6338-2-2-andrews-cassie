@@ -13,6 +13,6 @@ function greet() {
     {
         alert(new Date().getFullYear() - parseInt(age));
     } else {
-        alert(new Date().getFullYear() - parseInt(age) - 1 );
+        alert(new Date().getFullYear() - parseInt(age) - 1);
     }
 }
