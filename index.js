@@ -1,4 +1,5 @@
 // Your code here
 function greet() {
-    prompt("What is your name?")
+    let name = prompt("What is your name?");
+    alert("Hello, " + name + "");
 }
