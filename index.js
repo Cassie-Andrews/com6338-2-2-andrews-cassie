@@ -8,18 +8,11 @@ function greet() {
        console.log(parseInt(age));
     
 
-    //need to work on this part, getting confirm alert for both boolean values
+    //FIX how to write formulas for 'year - age' and 'year - age + 1'
     if (window.confirm("Have you had a birthday yet this year?"))
     {
-        alert("yes");
+        alert(new Date().getFullYear());
     } else {
-        alert("no");
+        alert(new Date().getFullYear());
     }
-   // ((confirm(new Date().getFullYear())) - " + age + " ) {
-        //yes!
-       // console.log("log yes");
-   // } else {
-        //no!
-      //  console.log("log no") ;
-   // }
 }
