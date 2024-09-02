@@ -4,7 +4,7 @@ function greet() {
         alert("Hello, " + name + "");
 
     //age
-    const userAge = prompt("How old are you?");
+    var userAge = prompt("How old are you?");
        console.log(parseInt(userAge));
     
 
